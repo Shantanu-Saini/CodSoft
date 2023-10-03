@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/bb6da1283c.js" crossorigin="anonymous"></script>
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <div id="container">
+    <div class="content">
+      <!-- Navbar start -->
+      <nav class="navbar">
+        <div class="logo">
+          <img src="./Images/Name.png" alt="logo" style="height: 60px; width: 210px" />
+        </div>
+        <div class="nav-tabs">
+          <div class="menu-toggle" id="menuToggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <ul class="menu" id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Navbar end -->
+
+      <!-- Home start -->
+      <div id="home">
+        <div class="home-content">
+          <h1>Hi, I'm <span style="color: rgb(152, 31, 31);">Shantanu Saini</span></h1>
+          <p class="typed-line">I'm a <span id="element" style="color: rgb(152, 31, 31);"></span></p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/shantanu-saini-525a9a27a/" target="_blank"><img
+                src="./Images/linkedin.png" alt="linkedin" /></a>
+            <a href="https://github.com/Shantanu-Saini" target="_blank"><img src="./Images/github.png"
+                alt="linkedin" /></a>
+            <a href="mailto:shantanusaini7000@gmail.com" target="_blank"><img src="./Images/gmail.png"
+                alt="linkedin" /></a>
+            <a href="https://www.instagram.com/whoshantanu_/?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank"><img
+                src="./Images/instagram.png" alt="linkedin" /></a>
+          </div>
+          <button class="btn">
+            <a href="./Images/Shantanu Resume.pdf" download>Download CV</a>
+          </button>
+        </div>
+        <div class="home-img">
+          <img src="./Images/pfp.png" alt="Photo" class="pfp-img" />
+        </div>
+      </div>
+      <!-- Home end -->
+
+      <!-- About start -->
+      <div id="about">
+        <div class="about-content">
+          <div class="about-img">
+            <img src="./Images/anime.gif" alt="anime" />
+          </div>
+          <div class="about-txt">
+            <h1 style="margin-bottom: 20px">About Me</h1>
+            <p style="margin-block: 30px;">
+              I am a passionate computer science engineering student dedicated to the art of problem-solving. With a
+              strong foundation in languages like Java, Python, and C++, I thrive on challenges and collaboration.
+              Committed to exploring emerging technologies, I aspire to be a catalyst for positive change in the tech
+              world. Explore my portfolio to discover my journey and projects.
+            </p>
+            <!-- Education And Experience -->
+            <div class="tab-tiles">
+              <p class="tab-link active-link" onclick="openTab('education')">
+                Education
+              </p>
+              <p class="tab-link" onclick="openTab('experience')">
+                Experience
+              </p>
+            </div>
+            <div class="tab-content active-tab" id="education">
+              <p><b>Highschool (2016)</b></p>
+              <p>S.D.M Inter College</p>
+              <p>Percentage : 85.83%</p>
+              <br />
+              <p><b>Intermediate (2018)</b></p>
+              <p>S.D.M Inter College</p>
+              <p>Percentage : 85.60%</p>
+              <br />
+              <p><b>Graduation (2018-2021)</b></p>
+              <p>M.J.P Rohilkhand University</p>
+              <p>Percentage : 60.51%</p>
+              <br />
+              <p><b>Post Graduation (2022-2024)</b></p>
+              <p>Kamla Nehru Institute of Technology</p>
+              <p>Persuing...</p>
+            </div>
+            <div class="tab-content" id="experience" style="height: 352px">
+              <p><b>Web Developer Intern @ CodeSoft</b></p>
+              <p>September,2023 - October,2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About end -->
+
+      <!-- Skills start -->
+      <div id="skill">
+        <div class="skill-content">
+          <h1>Skills</h1>
+          <div class="skill-list">
+            <div class="skill-type">
+              <h2>Languages</h2>
+              <div class="skill-icon">
+                <img src="./Images/icon-c++.png" alt="cpp" />
+                <img src="./Images/java.png" alt="java" />
+              </div>
+            </div>
+            <div class="skill-type">
+              <h2>Web Development</h2>
+              <div class="skill-icon">
+                <img src="./Images/html-5.png" alt="html" />
+                <img src="./Images/css-3.png" alt="css" />
+                <img src="./Images/javascript.png" alt="js" />
+              </div>
+            </div>
+            <div class="skill-type">
+              <h2>Frameworks</h2>
+              <div class="skill-icon">
+                <img src="./Images/reactjs.png" alt="reactjs" />
+                <img src="./Images/tailwindCSS.png" alt="tailwindcss" />
+              </div>
+            </div>
+
+            <div class="skill-type">
+              <h2>Tools</h2>
+              <div class="skill-icon">
+                <img src="./Images/mysql.png" alt="mysql" />
+                <img src="./Images/git.png" alt="Git" />
+                <img src="./Images/github.png" alt="Github" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills end -->
+
+      <!-- Projects start -->
+      <div id="project">
+        <div class="project-content">
+          <h1>Projects</h1>
+          <div class="project-list">
+            <div class="project-item">
+              <img src="./Images/todo-img.jpeg" alt="Todo-list" />
+              <div class="layer">
+                <h3>Todo-List</h3>
+                <p>
+                  Efficient React-based ToDo list app for seamless task management and organization with a user-friendly
+                  interface.
+                </p>
+                <a href="https://task-todo-now.netlify.app" target="_blank">
+                  <img src="./Images/redirect.png" alt="link" />
+                </a>
+              </div>
+            </div>
+            <div class="project-item">
+              <img src="./Images/calculator-img.webp" alt="Calculator" />
+              <div class="layer">
+                <h3>Calculator</h3>
+                <p>
+                  Responsive calculator web app with a sleek design, featuring basic arithmetic operations and a
+                  user-friendly interface.
+                </p>
+                <a href="https://calc-me-up.netlify.app" target="_blank">
+                  <img src="./Images/redirect.png" alt="link" />
+                </a>
+              </div>
+            </div>
+            <div class="project-item">
+              <img src="./Images/math-img.png" alt="Math-Game" />
+              <div class="layer">
+                <h3>Math Game</h3>
+                <p>
+                  Interactive math game app built with React, testing your multiplication and addition skills in a fun
+                  way.
+                </p>
+                <a href="https://hashmath.netlify.app" target="_blank">
+                  <img src="./Images/redirect.png" alt="link" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Projects end -->
+
+      <!-- Contact start -->
+      <div id="contact">
+        <div class="contact-content">
+          <h1>Contact Me</h1>
+          <div class="contact-list">
+            <div class="contact-left">
+              <p>
+                <img src="./Images/gmailico.png" style="height: 18px; width: 18px;" alt="gmail>
+                <a href="mailto:shantanusaini7000@gmail.com">shantanusaini7000@gmail.com</a>
+              </p>
+              <p>
+                <img src="./Images/teleico.png" style="height: 18px; width: 18px;">
+                <a href="tel:+917830777402">7830777402</a>
+              </p>
+              <div class="social-links">
+                <a href="https://www.linkedin.com/in/shantanu-saini-525a9a27a/" target="_blank"><img
+                    src="./Images/linkedin.png" alt="linkedin" /></a>
+                <a href="https://www.instagram.com/whoshantanu_/?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank"><img
+                    src="./Images/instagram.png" alt="linkedin" /></a>
+              </div>
+              <button class="btn">
+                <a href="./Images/Shantanu Resume.pdf" download>Download CV</a>
+              </button>
+            </div>
+            <div class="contact-right">
+              <form name="">
+                <label>Leave a Message</label>
+                <input type="text" name="Name" placeholder="Your Name" required />
+                <input type="email" name="Email" placeholder="Your Email" required />
+                <textarea name="Message" cols="30" rows="4" placeholder="Your Message"></textarea>
+                <button>Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact end -->
+    </div>
+    <!-- FOOTER start -->
+    <div class="footer">
+      <p style="font-size: larger;">Made with ♥ by <i style="color: rgb(255, 0, 79); font-weight: 600;">Shantanu
+          Saini</i></p>
+    </div>
+    <!-- FOOTER end -->
+  </div>
+  <!-- Script -->
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["<i>Web Developer</i>.", "<i>Programmer</i>."],
+      typeSpeed: 150,
+    });
+  </script>
+</body>
+
+</html>
